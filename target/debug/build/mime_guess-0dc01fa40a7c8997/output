@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=/home/yasser/Projects/reflex-arena/target/debug/build/mime_guess-0dc01fa40a7c8997/out/mime_types_generated.rs
