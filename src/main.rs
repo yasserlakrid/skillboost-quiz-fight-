@@ -78,17 +78,7 @@ static QS: &[Q] = &[
     q!("Graphic design", ["🟦", "🔍", "🧱"], ["Vector path", "Pixel", "Font"], 1),
     q!("Graphic design", ["⚪", "⚫", "🌗"], ["Contrast", "Opacity", "Saturation"], 0),
     q!("Graphic design", ["⬜", "🌬️", "🧘"], ["Drop shadow", "Texture", "Whitespace"], 2),
-    // ---- Motion design ----
-    q!("Motion design", ["🔑", "🎞️", "📈"], ["Rotoscoping", "Keyframes", "Rigging"], 1),
-    q!("Motion design", ["🐢", "🏃", "📉"], ["Easing", "Looping", "Masking"], 0),
-    q!("Motion design", ["🟣", "✨", "🎞️"], ["Premiere Pro", "DaVinci Resolve", "After Effects"], 2),
-    q!("Motion design", ["🔁", "🎞️", "♾️"], ["Looping", "Masking", "Parenting"], 0),
-    q!("Motion design", ["🔗", "👶", "👨"], ["Rendering", "Parenting", "Tracking"], 1),
-    q!("Motion design", ["🎯", "📹", "🔎"], ["Motion tracking", "Color grading", "Keying"], 0),
-    q!("Motion design", ["🟩", "🎬", "✂️"], ["Rotoscoping", "Keying", "Warping"], 1),
-    q!("Motion design", ["🦴", "🧍", "🔗"], ["Texturing", "Baking", "Rigging"], 2),
-    q!("Motion design", ["📚", "🖍️", "🎞️"], ["Storyboard", "Timeline", "Render queue"], 0),
-    q!("Motion design", ["🎞️", "⏱️", "2️⃣4️⃣"], ["Aspect ratio", "Frame rate", "Bitrate"], 1),
+    
     // ---- Filmmaking ----
     q!("Filmmaking", ["🌅", "🎥", "🧡"], ["Golden hour", "Jump cut", "Dolly zoom"], 0),
     q!("Filmmaking", ["✂️", "🎞️", "🧩"], ["Lighting", "Editing", "Sound mixing"], 1),

@@ -1,6 +1,6 @@
 const $ = s => document.querySelector(s), app = $('#app');
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-const ICON = { 'AI': '🤖', 'Backend dev': '⚙️', 'Security': '🛡️', 'Graphic design': '🎨', 'Motion design': '🎞️', 'Filmmaking': '🎬', 'Blender': '🧊' };
+const ICON = { 'AI': '🤖', 'Backend dev': '⚙️', 'Security': '🛡️', 'Graphic design': '🎨', 'Filmmaking': '🎬', 'Blender': '🧊' };
 let ws, role, raf, st = { players: [] };
 
 const send = o => ws && ws.readyState === 1 && ws.send(JSON.stringify(o));
